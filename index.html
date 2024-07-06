@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>movie database</title>
+</head>
+
+<body>
+    <header>
+        <h1>welcome to movie database</h1>
+    </header>
+    <section>
+        <img width="400px" height="400px" src="https://ew.com/thmb/06P_VjRcfUxs8u3et0NkXMF3wHY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/best-animated-movies-on-netflix-tout-120423-e5a375226f134eeb92ebaea5bfe6b0cd.jpg" alt="no pic">
+        <h2>Lorem, ipsum dolor.</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, ratione. <br>
+            <i> Lorem ipsum dolor sit amet.</i>
+        </p>
+    </section>
+    <p align="right">Lorem ipsum dolor sit amet.</p>
+    <section>
+        <table border="1">
+            <tr>
+                <th>title</th>
+                <th>director</th>
+                <th>year</th>
+                <th>genre</th>
+            </tr>
+            <tr>
+                <th>korea</th>
+                <th>rola</th>
+                <th>1566</th>
+                <th>drama</th>
+            </tr>
+
+        </table>
+
+    </section>
+
+
+
+
+    <section>
+        <h2>enter your fav movie</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, rem.</p>
+        <form action="/sumbit">
+            <label for="title"> title</label>
+            <input type="text" id="title" name="title" required><br>
+            <label for="director">director</label>
+            <input type="text" name="director" id="director" required><br>
+            <label for="genre">genre</label>
+            <select name="genre" id="genre" required>
+                <option value="action">action</option>
+                <option value="comedy">comedy</option>
+                <option value="horror">horror</option>
+                <option value="romance">romance</option>
+            </select><br>
+            <label for="release_date">release_date</label>
+            <input type="date" id="release_date" name="release_date">
+            <label for='image'>upload image</label>
+            <input type="file" id="image" name="image"><br>
+            <button type="submit">sumbit</button>
+        </form>
+    </section>
+    <footer>
+        <p>for more info visit <a href="https://www.imdb.com/">IMDB</a></p>
+    </footer>
+</body>
+
+</html>
